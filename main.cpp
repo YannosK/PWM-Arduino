@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <math.h>
-#define PWMPIN 5
+#define PWMPIN 11
 int step = 5;
 
 void setup() {
