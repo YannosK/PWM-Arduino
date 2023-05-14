@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <math.h>
-#define PWMPIN 5
+#define PWMPIN 5 //frequency 976.6Hz
 int step = 5;
 
 void setup() {
