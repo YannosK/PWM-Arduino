@@ -4,7 +4,7 @@
 int step = 5;
 
 void setup() {
-  pinMode(PWMPIN, OUTPUT); //it's not even necessaryDDD
+  pinMode(PWMPIN, OUTPUT); //it's not even necessary
 }
 
 void loop() {
