@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <math.h>
 #define PWMPIN 5
-int step = 4;
+int step = 5;
 
 void setup() {
   pinMode(PWMPIN, OUTPUT); //it's not even necessaryDDD
