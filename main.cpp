@@ -14,7 +14,7 @@ void loop() {
   temp = 255 / step;
   inc = (int)floor(temp); //floor() function takes a floating-point number as input and returns the largest integer that is less than or equal to the input
   
-    while (val<255){
+    while (val<=255){
     //Serial.println(val);
     analogWrite(PWMPIN, val);
     val = val+inc;
